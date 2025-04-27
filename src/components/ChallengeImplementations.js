@@ -144,7 +144,7 @@ export const AroundTheWorldChallenge = ({ onBack, onComplete }) => {
             </div>
             <h3 className="text-xl font-bold mb-2">Challenge Complete!</h3>
             <p className="text-gray-600 mb-4">
-              You've completed all 5 stations in {formatTime(timer)}!
+              You&apos;ve completed all 5 stations in {formatTime(timer)}!
             </p>
             <p className="font-bold text-yellow-500 text-lg mb-4">+50 Points</p>
             <button
@@ -393,7 +393,7 @@ export const TrickShotChallenge = ({ onBack, onComplete }) => {
             
             <div className="flex items-center justify-center mb-4">
               <p className="text-gray-600 text-sm">
-                Recording "{selectedShot.name}" trick shot
+                Recording &quot;{selectedShot.name} trick shot
               </p>
             </div>
             
